@@ -1,0 +1,60 @@
+@use '../../styles' as s;
+
+.homePage {
+  &__visuallyHidden {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+  }
+
+  &__title {
+    align-self: center;
+
+    margin: 24px 0;
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 41px;
+    color: var(--text-main-color);
+
+    @include s.on-tablet {
+      max-width: 592px;
+      margin: 32px 0;
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    @include s.on-desktop {
+      max-width: fit-content;
+      margin: 56px 0;
+    }
+  }
+
+  &__section {
+    margin: 56px 0;
+    
+    @include s.on-tablet {
+      margin: 64px 0;
+    }
+
+    @include s.on-desktop {
+      margin: 80px 0;
+    }
+  }
+
+  &__sectionTitle {
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text-main-color);
+
+    @include s.on-tablet {
+      font-size: 32px;
+    }
+  }
+
+  &__error {
+    padding: 16px 0;
+    color: s.$red;
+  }
+}

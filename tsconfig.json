@@ -4,7 +4,10 @@
     "src"
   ],
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
     "sourceMap": false,
+    "target": "ES2020",
     "types": ["node"]
   }
 }

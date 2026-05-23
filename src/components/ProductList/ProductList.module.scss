@@ -1,0 +1,21 @@
+@use '../../styles' as s;
+
+.productList {
+  align-items: start;
+
+  @include s.page-grid;
+
+  &__item {
+    display: flex;
+    grid-column: span 4;
+    align-items: stretch;
+
+    @include s.on-tablet {
+      grid-column: span 6;
+    }
+
+    @include s.on-desktop {
+      grid-column: span 6;
+    }
+  }
+}
