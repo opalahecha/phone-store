@@ -1,0 +1,1 @@
+import{j as n,L as e,C as r}from"./index-0eIk2oMA.js";const k="_backLink_555th_1",c={backLink:k},L=({to:s,onClick:a,label:i="Back"})=>{const t=n.jsxs(n.Fragment,{children:[n.jsx(r,{direction:"right"}),i]});return s?n.jsx(e,{to:s,className:c.backLink,children:t}):n.jsx("button",{type:"button",className:c.backLink,onClick:a,children:t})};export{L as B};

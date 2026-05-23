@@ -1,1 +1,0 @@
-import{u as a,v as t,o as u,q as p,p as d,r as n,g as i}from"./index-DOrraoA9.js";const P=()=>{const c=a(),o=t(u),s=t(p),e=t(d),r=o.length>0;return n.useEffect(()=>{!r&&!s&&c(i())},[c,r,s]),{products:o,isLoading:s,error:e}};export{P as u};
